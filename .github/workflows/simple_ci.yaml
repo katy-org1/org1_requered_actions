@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: "Git status"   
+      - name: "Pwd and Git status"   
         run:  |
           pwd
           ls -la
